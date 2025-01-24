@@ -1,8 +1,14 @@
+// the main CSS file
 import './App.css'
+
+// importing pages
+import Homepage from './Pages/Homepage'
 
 const App = () => {
   return (
-    <div className='text-4xl text-red-500'>App</div>
+    <div>
+      <Homepage />
+    </div>
   )
 }
 
