@@ -1,8 +1,8 @@
-
+import './App.css'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='text-4xl text-red-500'>App</div>
   )
 }
 
