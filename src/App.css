@@ -4,5 +4,8 @@
 
 body {
     font-family: "Red Hat Display", serif;
-    
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
 }
