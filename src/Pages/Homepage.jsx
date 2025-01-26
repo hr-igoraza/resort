@@ -4,6 +4,7 @@ import LandingSection from "../Components/LandingSection"
 import MoreAbout from "../Components/MoreAbout"
 import Navbar from "../Components/Navbar"
 import StayAndCuisine from "../Components/StayAndCuisine"
+import Location from "../Components/Location"
 
 
 const Homepage = () => {
@@ -15,6 +16,7 @@ const Homepage = () => {
         <AboutSection/>
         <MoreAbout />
         <StayAndCuisine />
+        <Location />
     </div>
   )
 }
