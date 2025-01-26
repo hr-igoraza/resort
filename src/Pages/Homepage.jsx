@@ -1,3 +1,4 @@
+import AboutSection from "../Components/AboutSection"
 import FacilitiesSections from "../Components/FacilitiesSections"
 import LandingSection from "../Components/LandingSection"
 import Navbar from "../Components/Navbar"
@@ -8,6 +9,7 @@ const Homepage = () => {
         <Navbar/>
         <LandingSection/>
         <FacilitiesSections/>
+        <AboutSection/>
     </div>
   )
 }
