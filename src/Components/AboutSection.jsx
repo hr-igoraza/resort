@@ -5,7 +5,7 @@ import nature from '../assets/Images/nature.png';
 
 const AboutSection = () => {
   return (
-    <div className="h-auto lg:mt-[750px] mt-[500px] md:-[1000px] flex flex-col lg:flex-row items-center lg:items-start justify-evenly lg:py-[150px] l px-6 md:px-[50px] lg:px-[100px] gap-12 lg:gap-10">
+    <div className="h-auto lg:mt-[750px] mt-[500px] md:-[1000px] flex flex-col lg:flex-row items-center lg:items-start justify-evenly lg:py-[150px] py-[100px] l px-6 md:px-[50px] lg:px-[100px] gap-12 lg:gap-10">
       {/* main content */}
       <div className="w-full max-w-[424px] flex flex-col gap-8 md:gap-16 text-center lg:text-left">
         <p className="text-[40px] md:text-[50px] lg:text-[65px] font-bold leading-tight text-[#025D28]">
