@@ -3,6 +3,8 @@ import FacilitiesSections from "../Components/FacilitiesSections"
 import LandingSection from "../Components/LandingSection"
 import MoreAbout from "../Components/MoreAbout"
 import Navbar from "../Components/Navbar"
+import StayAndCuisine from "../Components/StayAndCuisine"
+
 
 const Homepage = () => {
   return (
@@ -12,6 +14,7 @@ const Homepage = () => {
         <FacilitiesSections/>
         <AboutSection/>
         <MoreAbout />
+        <StayAndCuisine />
     </div>
   )
 }
