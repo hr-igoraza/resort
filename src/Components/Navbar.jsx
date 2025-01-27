@@ -33,12 +33,12 @@ const Navbar = () => {
       {/* Mobile Menu (Dropdown) */}
       {isMenuOpen && (
         <div className="absolute top-20 left-0 w-full bg-black bg-opacity-90 text-white flex flex-col items-center gap-6 py-6 md:hidden">
-          <Link className="text-lg font-medium hover:text-gray-300">Home</Link>
-          <Link className="text-lg font-medium hover:text-gray-300">Booking</Link>
-          <Link className="text-lg font-medium hover:text-gray-300">Food</Link>
-          <Link className="text-lg font-medium hover:text-gray-300">Blog</Link>
-          <Link className="text-lg font-medium hover:text-gray-300">Tourist Destination</Link>
-          <Link className="text-lg font-medium hover:text-gray-300">Contact</Link>
+          <Link to="/" className="text-lg font-medium hover:text-gray-300">Home</Link>
+          <Link to="/booking" className="text-lg font-medium hover:text-gray-300">Booking</Link>
+          <Link to="/food" className="text-lg font-medium hover:text-gray-300">Food</Link>
+          <Link to="/blog" className="text-lg font-medium hover:text-gray-300">Blog</Link>
+          <Link to="/tourist-destination" className="text-lg font-medium hover:text-gray-300">Tourist Destination</Link>
+          <Link to="/contact" className="text-lg font-medium hover:text-gray-300">Contact</Link>
         </div>
       )}
     </div>
