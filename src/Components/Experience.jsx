@@ -20,7 +20,7 @@ const Experience = () => {
   };
 
   return (
-    <div className='text-center px-4 md:px-[100px] lg:px-[150px] flex flex-col gap-[50px] py-16'>
+    <div className='text-center px-4 md:px-[100px] lg:px-[150px] flex flex-col lg:gap-[50px] gap-[20px] py-16'>
       <p className='text-[40px] md:text-[50px] lg:text-[65px] font-bold leading-tight'>
         Captured Journeys
       </p>
@@ -37,7 +37,7 @@ const Experience = () => {
           />
         </button>
       </div>
-      <div className='flex flex-col items-start text-start gap-1'>
+      <div className='flex flex-col items-start text-start gap'>
         <p className='text-lg md:text-[24px] leading-[30px] font-bold  text-gray-700'>
           Whether you're yearning for a romantic retreat or a well-deserved family getaway, 
           <br className='hidden md:block' /> Formosa Bay is your ideal destination.
