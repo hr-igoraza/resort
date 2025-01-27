@@ -6,6 +6,7 @@ import Navbar from "../Components/Navbar"
 import StayAndCuisine from "../Components/StayAndCuisine"
 import Location from "../Components/Location"
 import Experience from "../Components/Experience"
+import PopularDestination from "../Components/PopularDestination"
 
 
 const Homepage = () => {
@@ -19,6 +20,7 @@ const Homepage = () => {
         <StayAndCuisine />
         <Experience />
         <Location />
+        <PopularDestination />
     </div>
   )
 }
