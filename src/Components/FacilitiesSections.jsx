@@ -11,7 +11,7 @@ import dumbell from '../assets/Images/DumbellIcon.png';
 import elipsis from '../assets/Images/EllipsisIcon.png';
 import workspace from '../assets/Images/WorkspaceIcon.png';
 
-import FacilitiesCard from './FacilitiesCard';
+import FacilitiesCard from '../ResusableComps/FacilitiesCard';
 
 const FacilitiesSections = () => {
   // Facility data

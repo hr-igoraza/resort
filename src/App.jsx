@@ -11,7 +11,7 @@ import Contact from './Pages/Contact'
 
 // Router
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Navbar from './Components/Navbar'
+import Navbar from './ResusableComps/Navbar'
 
 const App = () => {
   return (
