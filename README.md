@@ -4,28 +4,6 @@ Welcome to the **Marmelos Resort Website**, a modern, responsive website designe
 
 ---
 
-## **Table of Contents**
-
-- [Demo](#demo)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Available Scripts](#available-scripts)
-- [Folder Structure](#folder-structure)
-- [Responsive Design](#responsive-design)
-- [Code Style and Best Practices](#code-style-and-best-practices)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
-
-## **Demo**
-
-You can view the live project here: **[Marmelos Resort Live Demo](#)** (Add link once deployed)
-
----
-
 ## **Features**
 
 - Responsive layout compatible with all screen sizes (desktop, tablet, mobile).
@@ -65,3 +43,10 @@ Ensure you have the following installed on your machine:
    git clone https://github.com/yourusername/marmelos-resort.git
    cd marmelos-resort
 
+2. **Installing Node Modules:**
+   ```bash
+   yarn
+
+3. **To Run the project:**
+   ```bash
+   yarb dev --host 
