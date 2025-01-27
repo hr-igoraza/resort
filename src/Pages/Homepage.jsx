@@ -5,6 +5,7 @@ import MoreAbout from "../Components/MoreAbout"
 import Navbar from "../Components/Navbar"
 import StayAndCuisine from "../Components/StayAndCuisine"
 import Location from "../Components/Location"
+import Experience from "../Components/Experience"
 
 
 const Homepage = () => {
@@ -16,6 +17,7 @@ const Homepage = () => {
         <AboutSection/>
         <MoreAbout />
         <StayAndCuisine />
+        <Experience />
         <Location />
     </div>
   )
