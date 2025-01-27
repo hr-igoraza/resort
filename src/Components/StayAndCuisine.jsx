@@ -4,6 +4,8 @@ import room2 from '../assets/Images/room2.png'
 import room3 from '../assets/Images/room3.png'
 import  flavours from '../assets/Images/flavours.png'
 
+import SeeMoreButton from '../ResusableComps/SeeMoreButton'
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
@@ -45,9 +47,9 @@ const StayAndCuisine = () => {
             Step into a world where modern elegance meets unmatched comfort. From plush interiors to breathtaking views, every detail of our resort is designed to provide a luxurious retreat. Whether you’re unwinding in our premium suites or lounging by the serene poolside, every moment here feels like a dream come true.</p>
           </div>
           {/* button */}
-          <button className='w-[200px] h-[60px] bg-[#025D28] lg:-mr-[200px] lg:mx-0'>
-            <p className='text-[20px] font-normal leading-[40px] text-white'>See more</p>
-          </button>
+          <div className='lg:self-end lg:mr-10'>
+            <SeeMoreButton />
+          </div>
         </div>
       </div>
 
@@ -64,9 +66,7 @@ const StayAndCuisine = () => {
                     Delight in the soul of Kerala with our authentic culinary offerings. Our expert chefs bring you an array of traditional dishes, crafted with locally sourced spices and ingredients. From rich curries to freshly steamed delicacies, each bite is a celebration of Kerala’s vibrant flavors. Pair your meal with our signature beverages for a dining experience that’s as unique as the land itself.</p>
                 </div>
                 {/* button */}
-                <button className='w-[200px] h-[60px] bg-[#025D28]'>
-                    <p className='text-[20px] font-normal leading-[40px] text-white'>See more</p>
-                </button>
+                <SeeMoreButton />
             </div>
 
             {/* image */}
