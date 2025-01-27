@@ -7,6 +7,7 @@ import StayAndCuisine from "../Components/StayAndCuisine"
 import Location from "../Components/Location"
 import Experience from "../Components/Experience"
 import PopularDestination from "../Components/PopularDestination"
+import Footer from "../Components/Footer"
 
 
 const Homepage = () => {
@@ -21,6 +22,7 @@ const Homepage = () => {
         <Experience />
         <Location />
         <PopularDestination />
+        <Footer />
     </div>
   )
 }
